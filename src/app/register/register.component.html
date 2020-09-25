@@ -1,0 +1,68 @@
+<div id="home" class="banner inner-banner-w3l">
+		<div class="header-nav">
+			<nav class="navbar navbar-default">
+			<div class="header-top">
+					<div class="navbar-header logo">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<h1>
+									<a class="navbar-brand" routerLink="/"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Oxford</a>
+								</h1>
+					</div>
+					<!-- navbar-header -->
+					<div class="contact-bnr-w3-agile">
+								<ul>
+									<li><i class="fa fa-envelope-o" aria-hidden="true"></i>sakshi@info.com</li>
+									<li><i class="fa fa-phone" aria-hidden="true"></i>+918077468355</li>	
+								</ul>
+							</div>
+							</div>
+					<div class="collapse navbar-collapse cl-effect-13" id="bs-example-navbar-collapse-1">
+
+						<ul class="nav navbar-nav navbar-right">
+							<li><a routerLink="/">Home</a></li>
+							
+							<li><a routerLink="/services">Services</a></li>
+							<li><a routerLink="/gallery" class="active">Gallery</a></li>
+							<li class="dropdown">
+								<a routerLink="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a routerLink="/engg">Engineering</a></li>
+                                    <li><a routerLink="/poly">Diploma</a></li>
+                                    <li><a routerLink="/pharm">Pharmacy</a></li>
+								</ul>
+							</li>
+                            <li><a routerLink="/contact">Contact</a></li>
+                            <li><a routerLink="/sign">SIGNUP</a></li>
+                            <li><a routerLink="/reg">REGISTER</a></li>
+						</ul>
+
+					</div>
+					<div class="clearfix"> </div>	
+				</nav>
+							<div class="clearfix"> </div>
+		</div>
+</div>
+<br><br><div class="container">
+        <div class="col-sm-8 col-sm-offset-2">
+            <form class="form-group">
+                <label>Name</label>
+                <input type="text" formControlName="name" class="form-control">
+                <label>Father's Name.</label>
+                <input type="text" formControlName="fname" class="form-control">
+                <label>Email</label>
+                <input type="text" formControlName="email" class="form-control">
+                <label>Address</label>
+                <input type="text" formControlName="add" class="form-control">
+                <label>Contact No</label>
+                <input type="text" formControlName="contact" maxlength="10" class="form-control">
+                <br>
+                <input type="submit" class="btn btn-success" value="login">
+            </form>
+        </div>
+    </div>
+    
